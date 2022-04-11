@@ -25,17 +25,21 @@ If you would like to create a bot similar to the one I've created for this repos
 1. Configure the initial robo advisor using Amazon Lex
 
 Sample Utterances
+
 ![utterances](./Examples/Utterances.png)
 
 Intent Slots
+
 ![slots](./Examples/Slots.png)
 
 Confirmation Prompt 
+
 ![confirmation](./Examples/Confirmation.png)
 
 2. Build and test the robo advisor
 
 Initial Bot Test, Using Only Lex
+
 ![LexBot](./Examples/Original_Test_Bot.gif)
 
 3. Enhance the robo advisor with an Amazon Lambda function
@@ -47,16 +51,20 @@ See the code written in the `lambda_function.py` file, and the code for the test
 Here are some examples of the bot in action. The first gif shows a user who provides information within the parameters of age 1-64 and investment amount of at least $5000. The other gifs show examples of when a user does not provide information within the parameters and how the bot prompts the user to provide information within the parameters. 
 
 Correct Information 
+
 ![CorrectBot](./Examples/Lambda_Bot_Correct.gif)
 
 Incorrect Age Information 
+
 ![IncorrectAge](./Examples/Incorrect_Age_Bot.gif)
 
 Incorrect Investment Amount Information
+
 ![IncorrectAmount](./Examples/Incorrect_Amount_Bot.gif)
 
 Incorrect Age and Investment Amount Information 
-![IncorrectBot](./Examples/Incorrect_Age_Amount_Bot.gif.gif)
+
+![IncorrectBot](./Examples/Incorrect_Age_Amount_Bot.gif)
 
 ---
 
